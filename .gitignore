@@ -188,7 +188,9 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 
-northwind/node_modules
-/northwind/server.js.map
-/northwind/server.js
-/northwind/.ntvs_analysis.dat
+/node_modules
+/.ntvs_analysis.dat
+/server.js.map
+/server.js
+/*.js
+/*.map
