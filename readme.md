@@ -23,11 +23,13 @@ From command prompt
  1. npm install bower -g
  2. npm install tslint -g
  3. npm install tsd -g
- 3. In the "northwind" directory run command: "npm install", this will download all npm packages for the project
+ 3. In the "northwind" project directory run command: "npm install", this will download all npm packages for the project
  4. In the "northwind" project directory run command: "bower install", this will download all bower packages for the project.
  5. Compile and Run the northwind solution
 
-*This project uses the AngularJS (Clean Code) Style guide* 
+***Note:** Steps 1-3 will is not needed for VS2015, since Bower, NPM, & TypeScript are built in. Unfortunately [NTVS](http://nodejstools.codeplex.com) is only available for VS2013 at the moment, and since this is a MEAN Stack example, we had to use VS2013.* We will migrate this sample to VS2015 as soon as NTVS is released for it.
+
+*This project uses the AngularJS (Clean Code) Style guide* <br/>
 **This project uses the Bootstrap UX/UI from the Visual Studio 2015 ASP.NET 5 Preview project template* <br/>
 
 ![enter image description here](https://lelong37.files.wordpress.com/2015/04/2015-04-01_8-15-581.png)
