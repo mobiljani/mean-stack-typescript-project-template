@@ -54,7 +54,7 @@ Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
 ![enter image description here](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
 <br/><br/>
 ![enter image description here](http://lelong37.files.wordpress.com/2015/04/azure2.png)
-<br/><br/>
+<br/><br/><br/>
 ![enter image description here](http://www.neudesic.com/wp-content/themes/neu/images/neudesic.png)
 
  
