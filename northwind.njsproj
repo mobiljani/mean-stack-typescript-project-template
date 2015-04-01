@@ -477,6 +477,7 @@
     <Content Include="public\lib\kendo\styles\Uniform\sprite_kpi.png" />
     <Content Include="public\lib\kendo\styles\Uniform\sprite_kpi_2x.png" />
     <Content Include="README.md" />
+    <Content Include="server\todo.txt" />
     <Content Include="tsd.json" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
