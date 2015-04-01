@@ -31,6 +31,11 @@ From command prompt
 
 ***Note:** Steps 1-3 will is not needed for VS2015, since Bower, NPM, & TypeScript are built in. Unfortunately [NTVS](http://nodejstools.codeplex.com) is only available for VS2013 at the moment, and since this is a MEAN Stack example, we had to use VS2013.* We will migrate this sample to VS2015 as soon as NTVS is released for it.
 
+Solution screenshot
+Note: We are only committing the transpiled *.js, *.js.map files, and bower packages to support Azure Website continuous integration and deployment at the moment. We'll un-commit/remove these files/packages from the repository once we figure out how to run commands (e.g. bower install, tsc, etc.) post continuous integration build and pre-deployment.
+
+![enter image description here](https://lelong37.files.wordpress.com/2015/04/2015-04-01_13-08-532.png)
+
 *This project uses the AngularJS (Clean Code) Style guide* <br/>
 **This project uses the Bootstrap UX/UI from the Visual Studio 2015 ASP.NET 5 Preview project template* <br/>
 
