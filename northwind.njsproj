@@ -522,6 +522,7 @@
     <Folder Include="public\lib\kendo\styles\Uniform\" />
     <Folder Include="public\home\" />
     <Folder Include="public\app\" />
+    <Folder Include="server\" />
     <Folder Include="typings\" />
     <Folder Include="typings\angular-ui-router\" />
     <Folder Include="typings\angularjs\" />
