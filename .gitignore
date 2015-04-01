@@ -191,3 +191,4 @@ ModelManifest.xml
 northwind/node_modules
 /northwind/server.js.map
 /northwind/server.js
+/northwind/.ntvs_analysis.dat
