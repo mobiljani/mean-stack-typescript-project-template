@@ -38,7 +38,7 @@ From command prompt
 
 **Solution screenshot**
 
-*Note: We are only committing the transpiled *.js, *.js.map files, and bower packages to support Azure Website continuous integration and deployment at the moment. We'll un-commit/remove these files/packages from the repository once we figure out how to run commands (e.g. bower install, tsc, etc.) post continuous integration build and pre-deployment.*
+*Note: We are only committing the transpiled *.js, *.js.map (source map) files, and bower packages to support Azure Website continuous integration and deployment at the moment. We'll un-commit/remove these files/packages from the repository once we figure out how to run commands (e.g. bower install, tsc, etc.) post continuous integration build and pre-deployment.*
 
 ![solution](http://lelong37.files.wordpress.com/2015/04/2015-04-01_13-08-532.png)
 ####<i class="icon-cog"></i>Coming Soon...!
