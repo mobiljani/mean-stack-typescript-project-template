@@ -34,13 +34,13 @@ From command prompt
 *This project uses the AngularJS (Clean Code) Style guide* <br/>
 **This project uses the Bootstrap UX/UI from the Visual Studio 2015 ASP.NET 5 Preview project template* <br/>
 
-![enter image description here](https://lelong37.files.wordpress.com/2015/04/2015-04-01_8-15-581.png)
+![homepage](http://lelong37.files.wordpress.com/2015/04/2015-04-01_8-15-581.png)
 
 **Solution screenshot**
 
 *Note: We are only committing the transpiled *.js, *.js.map files, and bower packages to support Azure Website continuous integration and deployment at the moment. We'll un-commit/remove these files/packages from the repository once we figure out how to run commands (e.g. bower install, tsc, etc.) post continuous integration build and pre-deployment.*
 
-![enter image description here](https://lelong37.files.wordpress.com/2015/04/2015-04-01_13-08-532.png)
+![solution](http://lelong37.files.wordpress.com/2015/04/2015-04-01_13-08-532.png)
 ####<i class="icon-cog"></i>Coming Soon...!
 
  - Northwind MongoDb
@@ -52,11 +52,11 @@ Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
 <br/><br/>
 ***Powered by***
 
-![enter image description here](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
+![ntvs](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
 <br/><br/>
-![enter image description here](http://lelong37.files.wordpress.com/2015/04/azure2.png)
+![azure](http://lelong37.files.wordpress.com/2015/04/azure2.png)
 <br/><br/><br/>
-![enter image description here](http://www.neudesic.com/wp-content/themes/neu/images/neudesic.png)
+![neudesic](http://www.neudesic.com/wp-content/themes/neu/images/neudesic.png)
 
  
 
