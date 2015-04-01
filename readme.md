@@ -31,7 +31,7 @@ From command prompt
 
 ***Note:** Steps 1-3 will is not needed for VS2015, since Bower, NPM, & TypeScript are built in. Unfortunately [NTVS](http://nodejstools.codeplex.com) is only available for VS2013 at the moment, and since this is a MEAN Stack example, we had to use VS2013.* We will migrate this sample to VS2015 as soon as NTVS is released for it.
 
-*This project uses the [AngularJS (Clean Code) Style guide](http://github.com/johnpapa/angular-styleguide)* <br/>
+**This project uses the [AngularJS (Clean Code) Style guide]*(http://github.com/johnpapa/angular-styleguide)* <br/>
 **This project uses the Bootstrap UX/UI from the Visual Studio 2015 ASP.NET 5 Preview project template* <br/>
 
 ![homepage](http://lelong37.files.wordpress.com/2015/04/2015-04-01_8-15-581.png)
