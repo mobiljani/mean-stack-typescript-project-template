@@ -52,9 +52,9 @@ Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
 ***Powered by***
 
 ![enter image description here](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
-<br/>
+<br/><br/>
 ![enter image description here](http://snippetspace.com/wp-content/uploads/2012/07/newpwdbyazureBLUE-Pantone-2995.png)
-<br/>
+<br/><br/>
 ![enter image description here](http://www.neudesic.com/wp-content/themes/neu/images/neudesic.png)
 
  
