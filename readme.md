@@ -1,4 +1,4 @@
-MEAN Stack VS2013 Template
+MEAN Stack VS2013 TypeScript Project Template
 -------
 Live demo (continuous integration with GitHub ->  Azure Website): http://tsmeantemplate.azurewebsites.net
 
