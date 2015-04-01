@@ -49,7 +49,7 @@ From command prompt
 
 <br/>
 Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
-<br/>
+<br/><br/>
 ***Powered by***
 
 ![enter image description here](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
