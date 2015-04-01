@@ -1,6 +1,6 @@
 MEAN Stack VS2013 Template
 -------
-Live demo (continuous integration with GitHub ->  Azure Website)
+Live demo (continuous integration with GitHub ->  Azure Website): http://tsmeantemplate.azurewebsites.net
 
 #### <i class="icon-file"></i> Prerequisites
 > **Download and install the following:**
