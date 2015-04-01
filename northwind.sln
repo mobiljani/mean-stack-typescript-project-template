@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "northwind", "northwind\northwind.njsproj", "{7A4B3A38-E72C-4B6C-85EE-1E6EB4118BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A4B3A38-E72C-4B6C-85EE-1E6EB4118BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4B3A38-E72C-4B6C-85EE-1E6EB4118BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4B3A38-E72C-4B6C-85EE-1E6EB4118BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4B3A38-E72C-4B6C-85EE-1E6EB4118BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
