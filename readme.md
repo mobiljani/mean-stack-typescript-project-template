@@ -50,8 +50,6 @@ From command prompt
 <br/>
 Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
 <br/><br/>
-***Stack***
-<br/>
 ![mean](https://lelong37.files.wordpress.com/2015/04/2015-04-02_10-49-38-e1427989841341.png)
 <br/>
 ![ntvs](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
