@@ -50,13 +50,14 @@ From command prompt
 <br/>
 Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
 <br/><br/>
-***Powered by***
-
+***Stack***
+<br/>
+![mean](http://lelong37.files.wordpress.com/2015/04/2015-04-02_10-28-43-e1427988800491.png)
+<br/>
 ![ntvs](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
 <br/><br/>
 ![azure](http://lelong37.files.wordpress.com/2015/04/azure2.png)
 <br/><br/><br/>
 ![neudesic](http://www.neudesic.com/wp-content/themes/neu/images/neudesic.png)
-
- 
-
+<br/><br/>
+![enter image description here](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/TypeScript_Logo.png/220px-TypeScript_Logo.png)
