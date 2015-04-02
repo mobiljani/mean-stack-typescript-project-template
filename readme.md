@@ -52,7 +52,7 @@ Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
 <br/><br/>
 ***Stack***
 <br/>
-![mean](http://lelong37.files.wordpress.com/2015/04/2015-04-02_10-28-43-e1427988800491.png)
+![mean](https://lelong37.files.wordpress.com/2015/04/2015-04-02_10-49-38-e1427989841341.png)
 <br/>
 ![ntvs](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
 <br/><br/>
