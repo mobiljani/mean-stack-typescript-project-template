@@ -4,16 +4,16 @@ import _settings = require('../settings');
 import ISettings = _settings.ISettings;
 
 var settings: ISettings = {
-    url: "http://localhost:1337/",
+    url: "http://tsmeantemplate.azurewebsites.net",
     port: 1337,
     mongo: {
-        uri: "mongodb://localhost:27017/signalflow",
-        url: "localhost",
-        port: 1337,
-        user: "signalflow",
-        password: "password",
-        name: "signalflow",
-        dbName: "signalflow"
+        uri: "mongodb://northwind:OTGJIkZJEgvFkO_niyXljVGWphLUWfqWum8sAynDVhU-@ds045107.mongolab.com:45107/northwind",
+        url: "ds045107.mongolab.com",
+        port: 45107,
+        user: "northwind",
+        password: "OTGJIkZJEgvFkO_niyXljVGWphLUWfqWum8sAynDVhU-",
+        name: "northwind",
+        dbName: "northwind"
     }
 };
 export = settings;
