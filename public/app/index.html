@@ -3,82 +3,96 @@
 <head>
     <style>
         html {
-            font-size: 12px;
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
         }
     </style>
     <title>Neudesic MEAN Stack Template</title>
 
-    <link rel="stylesheet" href="/bower/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/lib/kendo/styles/kendo.common.min.css" />
-    <link rel="stylesheet" href="/lib/kendo/styles/kendo.bootstrap.min.css" />
-    <link rel="stylesheet" href="/lib/kendo/styles/kendo.dataviz.min.css" />
-    <link rel="stylesheet" href="/lib/kendo/styles/kendo.dataviz.bootstrap.min.css" />
+    <link href="/bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/lib/kendo/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="/lib/kendo/styles/kendo.bootstrap.min.css" rel="stylesheet" />
+    <link href="/lib/kendo/styles/kendo.dataviz.min.css" rel="stylesheet" />
+    <link href="/lib/kendo/styles/kendo.dataviz.bootstrap.min.css" rel="stylesheet" />
     <link href="/css/site.css" rel="stylesheet" />
 </head>
 <body ng-app="app">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a ui-sref="home" class="navbar-brand">Home</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a ui-sref="home">Home Module</a></li>
-                    <li><a ui-sref="errors">Errors Sample</a></li>
-                    <li><a href="/app/diagram/diagram.html">Design Surface Sample</a></li>
-                </ul>
-            </div>
+<div class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" ui-sref="home">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a ui-sref="home">Home Module</a>
+                </li>
+                <li>
+                    <a ui-sref="errors">Errors Sample</a>
+                </li>
+                <li>
+                    <a ui-sref="northwind">Northwind Sample</a>
+                </li>
+                <li>
+                    <a href="/app/diagram/diagram.html">Design Surface Sample</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="container body-content">
-        <div ui-view></div>
-        <hr />
-        <footer>
-            <p>
-                2015 - MEAN Stack TypeScript Sample Application<br />
-                <a href="http://blog.long.le.net" target="_blank">http://blog.long.le.net</a> <a href="http://twitter.com/lelong37" target="_blank">@LeLong37</a> @ Neudesic
-            </p>
-        </footer>
-    </div>
+</div>
+<div class="body-content container">
+    <div ui-view></div>
+    <hr />
+    <footer>
+        <p>
+            2015 - MEAN Stack TypeScript Sample Application<br />
+            <a href="http://blog.long.le.net" target="_blank">http://blog.long.le.net</a> <a href="http://twitter.com/lelong37" target="_blank">@LeLong37</a> @ Neudesic
+        </p>
+    </footer>
+</div>
 
-    <!--bootstrap-->
-    <script src="/bower/jquery/dist/jquery.min.js"></script>
-    <script src="/bower/bootstrap/dist/js/bootstrap.js"></script>
+<!--bootstrap-->
+<script src="/bower/jquery/dist/jquery.min.js"></script>
+<script src="/bower/bootstrap/dist/js/bootstrap.js"></script>
 
-    <!--angular-->
-    <script src="/bower/angular/angular.min.js"></script>
-    <script src="/bower/angular-ui-router/release/angular-ui-router.min.js"></script>
+<!--angular-->
+<script src="/bower/angular/angular.min.js"></script>
+<script src="/bower/angular-ui-router/release/angular-ui-router.min.js"></script>
 
-    <!--breeze-->
-    <!--<script src="/lib/q/breeze-q.js"></script>
-    <script src="/lib/breezejs/breeze.debug.js"></script>-->
+<!--breeze-->
+<!--<script src="/lib/q/breeze-q.js"></script>
+<script src="/lib/breezejs/breeze.debug.js"></script>-->
 
-    <!--kendo-->
-    <!--<script src="/lib/kendo/js/kendo.all.min.js"></script>-->
-    <script src="/lib/kendo/js/kendo.all.min.js"></script>
+<!--kendo-->
+<!--<script src="/lib/kendo/js/kendo.all.min.js"></script>-->
+<script src="/lib/kendo/js/kendo.all.min.js"></script>
 
-    <!--core module-->
-    <script src="/app/app.core.module.js"></script>
-    <script src="/app/app.module.js"></script>
-    <script src="/app/app.config.js"></script>
-    <!--<script src="/app/app.values.js"></script>-->
+<!--core module-->
+<script src="/app/app.core.module.js"></script>
+<script src="/app/app.module.js"></script>
+<script src="/app/app.config.js"></script>
+<!--<script src="/app/app.values.js"></script>-->
 
-    <!--app blocks-->
-    <script src="/app/blocks/blocks.module.js"></script>
-    <script src="/app/blocks/apiendpoint.config.js"></script>
-    <script src="/app/blocks/apiendpoint.provider.js"></script>
-    <script src="/app/blocks/logdecorator.config.js"></script>
+<!--app blocks-->
+<script src="/app/blocks/blocks.module.js"></script>
+<script src="/app/blocks/apiendpoint.config.js"></script>
+<script src="/app/blocks/apiendpoint.provider.js"></script>
+<script src="/app/blocks/logdecorator.config.js"></script>
 
-    <!--home module-->
-    <script src="/app/home/home.module.js"></script>
-    <script src="/app/home/home.error.controller.js"></script>
-    <script src="/app/home/home.routes.js"></script>
+<!--home module-->
+<script src="/app/home/home.module.js"></script>
+<script src="/app/home/home.error.controller.js"></script>
+<script src="/app/home/home.routes.js"></script>
+
+<!--northwind module-->
+<script src="/app/northwind/northwind.module.js"></script>
+<script src="/app/northwind/northwind.index.controller.js"></script>
+<script src="/app/northwind/northwind.routes.js"></script>
 
 </body>
 </html>

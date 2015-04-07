@@ -10,7 +10,10 @@
   "dependencies": {
     "angular-ui-router": "^0.2.13",
     "body-parser": "^1.12.2",
-    "express": "^4.12.3"
+    "breeze-mongodb": "0.0.6",
+    "express": "^4.12.3",
+    "lodash": "^3.6.0",
+    "mongodb": "^2.0.27"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

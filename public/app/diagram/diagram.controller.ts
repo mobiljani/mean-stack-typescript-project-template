@@ -12,7 +12,6 @@ import IPointOptions = kendo.dataviz.diagram.PointOptions;
 import PanelBar = kendo.ui.PanelBar;
 import IPanelBarOptions = kendo.ui.PanelBarOptions;
 import IShapeOptions = kendo.dataviz.diagram.ShapeOptions;
-import ButtonClickEvent = kendo.ui.ButtonClickEvent;
 import IColorPickerOptions = kendo.ui.ColorPickerOptions;
 import IDiagramOptions = kendo.dataviz.ui.DiagramOptions;
 import IUploadOptions = kendo.ui.UploadOptions;

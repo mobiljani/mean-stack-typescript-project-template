@@ -6,6 +6,7 @@
     <Name>northwind</Name>
     <RootNamespace>northwind</RootNamespace>
     <NameOfLastUsedPublishProfile>tsmeantemplate</NameOfLastUsedPublishProfile>
+    <Environment>NODE_ENV=development</Environment>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -21,12 +22,12 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
     <EnableTypeScript>true</EnableTypeScript>
-    <StartWebBrowser>true</StartWebBrowser>
+    <StartWebBrowser>True</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -60,6 +61,9 @@
     <None Include="typings\angular-ui-router\angular-ui-router.d.ts" />
     <None Include="typings\tsd.d.ts" />
     <None Include="typings\node\node.d.ts" />
+    <TypeScriptCompile Include="public\app\northwind\northwind.index.controller.ts" />
+    <TypeScriptCompile Include="public\app\northwind\northwind.module.ts" />
+    <TypeScriptCompile Include="public\app\northwind\northwind.routes.ts" />
     <TypeScriptCompile Include="server.ts" />
     <Content Include=".bowerrc" />
     <Content Include="bower.json" />
@@ -69,6 +73,7 @@
     <Content Include="public\app\home\views\index.html" />
     <Content Include="public\app\home\views\notfound.html" />
     <Content Include="public\app\index.html" />
+    <Content Include="public\app\northwind\views\index.html" />
     <Content Include="public\css\diagram.css" />
     <Content Include="public\css\Site.css" />
     <Content Include="public\images\ASP-NET-Banners-01.png" />
@@ -478,9 +483,7 @@
     <Content Include="public\lib\kendo\styles\Uniform\sprite_kpi.png" />
     <Content Include="public\lib\kendo\styles\Uniform\sprite_kpi_2x.png" />
     <Content Include="README.md" />
-    <Content Include="server\todo.txt" />
     <Content Include="tsd.json" />
-    <None Include="tsmeantemplate.pubxml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="bin\ChangeConfig.ps1" />
@@ -491,6 +494,16 @@
     <None Include="typings\express\express.d.ts" />
     <None Include="typings\kendo\kendo.all.d.ts" />
     <None Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="server\api\odata.ts" />
+    <None Include="typings\mongodb\mongodb.d.ts" />
+    <TypeScriptCompile Include="server\config\environment\all.ts" />
+    <TypeScriptCompile Include="server\config\environment\development.ts" />
+    <TypeScriptCompile Include="server\config\environment\production.ts" />
+    <TypeScriptCompile Include="server\config\settings.ts" />
+    <None Include="typings\lodash\lodash.d.ts" />
+    <TypeScriptCompile Include="server\repository\database.ts" />
+    <TypeScriptCompile Include="server\repository\repository.ts" />
+    <TypeScriptCompile Include="server\utility.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
@@ -498,6 +511,8 @@
     <Folder Include="public\app\diagram\" />
     <Folder Include="public\app\home\" />
     <Folder Include="public\app\home\views\" />
+    <Folder Include="public\app\northwind\" />
+    <Folder Include="public\app\northwind\views\" />
     <Folder Include="public\css\" />
     <Folder Include="public\images\" />
     <Folder Include="public\lib\" />
@@ -523,14 +538,19 @@
     <Folder Include="public\lib\kendo\styles\Silver\" />
     <Folder Include="public\lib\kendo\styles\textures\" />
     <Folder Include="public\lib\kendo\styles\Uniform\" />
-    <Folder Include="public\home\" />
     <Folder Include="public\app\" />
     <Folder Include="server\" />
+    <Folder Include="server\api\" />
+    <Folder Include="server\config\" />
+    <Folder Include="server\config\environment\" />
+    <Folder Include="server\repository\" />
     <Folder Include="typings\" />
     <Folder Include="typings\angular-ui-router\" />
     <Folder Include="typings\angularjs\" />
     <Folder Include="typings\jquery\" />
     <Folder Include="typings\kendo\" />
+    <Folder Include="typings\lodash\" />
+    <Folder Include="typings\mongodb\" />
     <Folder Include="typings\node\" />
     <Folder Include="public\" />
     <Folder Include="typings\body-parser\" />
