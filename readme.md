@@ -1,4 +1,4 @@
-MEAN Stack VS2013 Template
+MEAN Stack VS2013 TypeScript Project Template
 -------
 Live demo (continuous integration with GitHub ->  Azure Website): http://tsmeantemplate.azurewebsites.net
 
@@ -31,19 +31,31 @@ From command prompt
 
 ***Note:** Steps 1-3 will is not needed for VS2015, since Bower, NPM, & TypeScript are built in. Unfortunately [NTVS](http://nodejstools.codeplex.com) is only available for VS2013 at the moment, and since this is a MEAN Stack example, we had to use VS2013.* We will migrate this sample to VS2015 as soon as NTVS is released for it.
 
-*This project uses the AngularJS (Clean Code) Style guide* <br/>
-**This project uses the Bootstrap UX/UI from the Visual Studio 2015 ASP.NET 5 Preview project template* <br/>
+**Project uses the [AngularJS (Clean Code) Style guide](http://github.com/johnpapa/angular-styleguide)* <br/>
+**Project uses the Bootstrap UX/UI from the Visual Studio 2015 ASP.NET 5 Preview project template* <br/>
 
-![enter image description here](https://lelong37.files.wordpress.com/2015/04/2015-04-01_8-15-581.png)
+![homepage](http://lelong37.files.wordpress.com/2015/04/2015-04-01_8-15-581.png)
 
+**Solution screenshot**
+
+*Note: We are only committing the transpiled *.js, *.js.map (source map) files, and bower packages to support Azure Website continuous integration and deployment at the moment. We'll un-commit/remove these files/packages from the repository once we figure out how to run commands (e.g. bower install, tsc, etc.) post continuous integration build and pre-deployment.*
+
+![solution](http://lelong37.files.wordpress.com/2015/04/2015-04-01_13-08-532.png)
 ####<i class="icon-cog"></i>Coming Soon...!
 
  - Northwind MongoDb
  - Full CRUD examples with AngularJS, Kendo UI, Breeze.JS, Node.JS & TypeScript
- - Dynamic/Lazy Loading all AngularJS modules with RequireJS 
+ - Dynamic/Lazy Loading all AngularJS modules with RequireJS
 
+<br/>
 Feedback & comments: [@LeLong37](http://twitter.com/lelong37) @ Neudesic
-
-
- 
-
+<br/><br/>
+![mean](https://lelong37.files.wordpress.com/2015/04/2015-04-02_10-49-38-e1427989841341.png)
+<br/>
+![ntvs](https://download-codeplex.sec.s-msft.com/Download?ProjectName=nodejstools&DownloadId=761175&Build=20983)
+<br/><br/>
+![azure](http://lelong37.files.wordpress.com/2015/04/azure2.png)
+<br/><br/><br/>
+![neudesic](http://www.neudesic.com/wp-content/themes/neu/images/neudesic.png)
+<br/><br/>
+![enter image description here](http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/TypeScript_Logo.png/220px-TypeScript_Logo.png)
